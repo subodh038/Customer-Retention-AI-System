@@ -27,13 +27,13 @@ Cross Validation
 🏗️ Project Architecture
 
 React Dashboard (Frontend)
-        ↓
+        
 FastAPI Backend (API)
-        ↓
+        
 Machine Learning Model (XGBoost)
-        ↓
+        
 Prediction + Probability + Feature Importance
-        ↓
+        
 Risk Analysis + Retention Recommendation
 
 | Technology    | Use              |
