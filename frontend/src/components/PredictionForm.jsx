@@ -32,9 +32,9 @@ export default function PredictionForm() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
-        data
-      )
+  "https://customer-retention-ai-system.onrender.com/predict",
+  data
+)
 
       setResult(response.data)
 
